@@ -4,7 +4,7 @@ import logo from '../images/logo.png';
 function NavbarComponent() {
   return (
     <div>
-      <Navbar expand='md' className="bg-body-tertiary mb-3 shadow text-center">
+      <Navbar expand='md' className="mb-3 shadow text-center">
         <style>
           {`
             .navbar-center {
