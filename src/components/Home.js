@@ -21,37 +21,17 @@ function Home() {
 
   return (
 <div>
-<div className="main-container" style={{ backgroundColor: '#eae2b7', color: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+<div id="home" className="main-container" style={{ backgroundColor: '#eae2b7', color: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
   <div className="contact-info-container slideInLeft" style={{ flex: '1' }}>
-    <div className="px-5" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '40px' }}>
+    <div className="px-5 contact" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold'}}>
       "Years of love and care in Ludlow, Vermont! Join us 
       for personalized dog walks, overnights, and daycare. Your pets deserve 
       the best, and we're here to deliver!"</div>
-      <div className="mt-5" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '40px' }}>Call us</div>
-      <style>{`
-    button {
-      display: inline-block;
-      padding: 8px 20px;
-      margin: 5px;
-      background: none;
-      border: 2px solid #000;
-      color: #000;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-      cursor: pointer;
-      border-radius: 5px;
-      width: 300px; /* Adjust the width as needed */
-    }
-
-    button:hover {
-      background-color: #fff;
-    }`}
-  </style>
-      <button className="button-pop-out">(802)-353-2676</button>
+      <div className="mt-2 contact" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold'}}>Call us</div>
+      <a href="tel:8023532676"><button className="button-pop-out contact-button">(802)-353-2676</button></a>
       <br />
-      <div className="mt-1" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '40px' }}>Email us</div>
-      <button className="button-pop-out">ludlowdogwalker@gmail.com</button>
-    
+      <div className="mt-1 contact" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold'}}>Email us</div>
+      <a href="mailto:ludlowdogwalker@gmail.com"><button className="button-pop-out contact-button">ludlowdogwalker@gmail.com</button></a>
   </div>
   <style>
   {`
@@ -75,29 +55,35 @@ function Home() {
 
 <div className="carousel-container slideInRight" style={{ flex: '2' }}>
   <Carousel fade>
-    <Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ borderRadius: '0%', width: '1200px', height: '800px' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/244248843_238430764967044_3416130564928511357_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=783fdb&_nc_ohc=8S2uCiVVRYUAX_fC3WF&_nc_ht=scontent-atl3-1.xx&oh=00_AfD4Zd8uG7MZoJN7fw9yq87CUUPJghtP7AJPNcNylztjAg&oe=656D9682"
         alt="First slide"
       />
+      </div>
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ borderRadius: '0%', width: '1200px', height: '800px' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src="https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/244247366_238417958301658_5414622567045488740_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=RXokeo_tLvQAX86Crek&_nc_ht=scontent-atl3-2.xx&oh=00_AfA0YNqlooG1iKEN5JZlXRv6hoxZ7hmDrXSVp0Rxlw8QSw&oe=656ECA91"
         alt="Second slide"
       />
+      </div>
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ borderRadius: '0%', width: '1200px', height: '800px' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/406302740_774541428022639_8215054823871706732_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=TxKE-nKYrGkAX_lBfw-&_nc_ht=scontent-atl3-1.xx&oh=00_AfC4hJQDdfHZ39myBdTr47C7QlYSFZIJ7o_dgWRTY-tboQ&oe=656D73E7"
         alt="Third slide"
       />
+      </div>
     </Carousel.Item>
   </Carousel>
 </div>
@@ -105,7 +91,7 @@ function Home() {
 <center>
       <Container id='services'>
       <Row className="d-flex flex-wrap justify-content-center">
-      <span className="reveal mt-5" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '60px' }}>Our Services</span>
+      <span className="mt-5" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '60px' }}>Our Services</span>
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 reveal">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
             <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/386067086_740452044764911_1558155325825133413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=oNw45qzRhOMAX-KZ9t-&_nc_ht=scontent-atl3-1.xx&oh=00_AfBmBZ6hBuxKWWKz1PwqX8cGFdq9J7g5cYGdkrHTgLCqkQ&oe=656E2E74)'}}></Card.Header>
@@ -185,7 +171,7 @@ function Home() {
       </Row>
     </Container>
     </center>
-    <section class="text-center">
+    <section id="about" class="text-center">
   <div class="p-5 bg-image" style={{
         backgroundColor: '#eae2b7',
         height: "300px",
