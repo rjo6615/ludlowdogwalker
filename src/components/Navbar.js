@@ -4,21 +4,21 @@ import logo from '../images/logo.png';
 function NavbarComponent() {
   return (
     <div>
-      <Navbar expand='md' className="mb-3 shadow text-center">
+      <Navbar fixed="top" expand='md' className="shadow text-center" style={{ backgroundColor: 'white', height: '80px'}}>
         <style>
           {`
             .navbar-center {
               display: flex;
               justify-content: center;
               align-items: center;
-              width: 55%;
+              width: 50%;
             }
           `}
         </style>
-        <Navbar.Brand href="#" className="navbar-center">
+        <Navbar.Brand href="#" className="navbar-center text-black">
         <img
             src={logo}
-            height="auto"
+            height="60px"
             alt="Logo"
             loading="lazy"
             style={{ marginTop: "-1px" }}
@@ -37,17 +37,17 @@ function NavbarComponent() {
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="align-items-center" style={{fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '20px'}}>
-              <Nav.Link href="#action1" className="pe-3 button-pop-out">
+            <Nav className="align-items-center" style={{fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '25px'}}>
+              <Nav.Link href="#action1" className="pe-3 button-pop-out text-black">
                 Home
               </Nav.Link>
-              <Nav.Link href="#action2" className="pe-3 button-pop-out">
+              <Nav.Link href="#action2" className="pe-3 button-pop-out text-black">
                 Services
               </Nav.Link>
-              <Nav.Link href="#action2" className="pe-3 button-pop-out">
+              <Nav.Link href="#action2" className="pe-3 button-pop-out text-black">
                 About Us
               </Nav.Link>
-              <Nav.Link href="tel:802-353-2676" className="pe-3 button-pop-out">
+              <Nav.Link href="tel:802-353-2676" className="pe-3 button-pop-out text-black">
               (802) 353-2676
               </Nav.Link>
               <a
