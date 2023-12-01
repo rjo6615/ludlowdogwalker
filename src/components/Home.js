@@ -21,19 +21,17 @@ function Home() {
 
   return (
 <div>
-<div style={{ display: 'flex', justifyContent: 'space-between' }}>
-  <div style={{ flex: 1, paddingRight: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }} 
-  className="mx-5 slideInLeft">
-    <div style={{fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '60px'}}>Get in contact <br />
-     with us today</div>
+<div className="main-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+  <div className="contact-info-container mx-5 slideInLeft" style={{ flex: '1' }}>
+    <div style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '60px' }}>Get in contact <br /> with us today</div>
     <p>
       Email us at ludlowdogwalker@gmail.com <br />
       or <br />
-      Call us at (802)- 353-2676
+      Call us at (802)-353-2676
     </p>
   </div>
-      <div style={{ flex: 1 }} className="mx-5 slideInRight">
-      <Carousel fade>
+  <div className="carousel-container mx-5 slideInRight" style={{ flex: '1' }}>
+    <Carousel fade>
       <Carousel.Item>
       <img
         style={{ borderRadius: '0%', width: '900px', height: '410px'}}
@@ -78,6 +76,7 @@ function Home() {
 <center>
       <Container id='services'>
       <Row className="d-flex flex-wrap justify-content-center slideInBottom">
+      <span style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '60px' }}>Our Services</span>
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
             <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/386067086_740452044764911_1558155325825133413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=oNw45qzRhOMAX-KZ9t-&_nc_ht=scontent-atl3-1.xx&oh=00_AfBmBZ6hBuxKWWKz1PwqX8cGFdq9J7g5cYGdkrHTgLCqkQ&oe=656E2E74)'}}></Card.Header>

@@ -54,14 +54,14 @@ function NavbarComponent() {
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1 button-pop-out"
               style={{backgroundColor: "#3b5998"}}
-              href="#!"
+              href="https://www.facebook.com/profile.php?id=100064003659462"
               role="button"
               ><i class="fab fa-facebook-f"></i>
               </a>
               <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1 instagram button-pop-out"
-              href="#!"
+              href="https://www.instagram.com/lynnandjims/"
               role="button"
               ><i class="fab fa-instagram"></i>
               </a>
