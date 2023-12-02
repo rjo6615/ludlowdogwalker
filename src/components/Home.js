@@ -189,7 +189,7 @@ function Home() {
               <h2 class="fw-bold mb-5">About Us</h2>
               <h6>"Welcome to Ludlow's Premier Dog Care by
                  our dedicated husband-and-wife team! Celebrating 
-                 1 year, we offer personalized dog walking, overnight
+                 20+ years experience, we offer personalized dog walking, overnight
                   stays, and daycare. Located in Ludlow, Vermont, we 
                   provide loving and reliable care for your furry 
                   friends. Join our family for joy-filled walks and 
