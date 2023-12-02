@@ -22,7 +22,7 @@ function Home() {
   return (
 <div>
 <div id="home" className="main-container" style={{ backgroundColor: '#eae2b7', color: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-  <div className="contact-info-container slideInLeft" style={{ flex: '1' }}>
+  <div className="contact-info-container fadeIn" style={{ flex: '1' }}>
     <div className="px-5 contact" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold'}}>
       "Years of love and care in Ludlow, Vermont! Join us 
       for personalized dog walks, overnights, and daycare. Your pets deserve 
@@ -53,7 +53,7 @@ function Home() {
   `}
 </style>
 
-<div className="carousel-container slideInRight" style={{ flex: '2' }}>
+<div className="carousel-container fadeIn" style={{ flex: '2' }}>
   <Carousel fade>
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
