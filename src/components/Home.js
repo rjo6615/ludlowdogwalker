@@ -1,5 +1,13 @@
 import React from "react";
 import {Carousel, Card, Container, Row} from 'react-bootstrap';
+import slide1 from "../images/slide1.jpg";
+import slide2 from "../images/slide2.jpg";
+import slide3 from "../images/slide3.jpg";
+import walking from "../images/walking.jpg";
+import overnights from "../images/overnights.jpg";
+import daycare from "../images/daycare.jpg";
+import somethingelse from "../images/somethingelse.jpg";
+import owners from "../images/owners.jpg";
 
 function Home() {
   function reveal() {
@@ -60,7 +68,7 @@ function Home() {
       <img
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
-        src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/244248843_238430764967044_3416130564928511357_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=783fdb&_nc_ohc=8S2uCiVVRYUAX_fC3WF&_nc_ht=scontent-atl3-1.xx&oh=00_AfD4Zd8uG7MZoJN7fw9yq87CUUPJghtP7AJPNcNylztjAg&oe=656D9682"
+        src={slide1}
         alt="First slide"
       />
       </div>
@@ -70,7 +78,7 @@ function Home() {
       <img
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
-        src="https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/244247366_238417958301658_5414622567045488740_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=RXokeo_tLvQAX86Crek&_nc_ht=scontent-atl3-2.xx&oh=00_AfA0YNqlooG1iKEN5JZlXRv6hoxZ7hmDrXSVp0Rxlw8QSw&oe=656ECA91"
+        src={slide2}
         alt="Second slide"
       />
       </div>
@@ -80,7 +88,7 @@ function Home() {
       <img
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
-        src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/406302740_774541428022639_8215054823871706732_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=TxKE-nKYrGkAX_lBfw-&_nc_ht=scontent-atl3-1.xx&oh=00_AfC4hJQDdfHZ39myBdTr47C7QlYSFZIJ7o_dgWRTY-tboQ&oe=656D73E7"
+        src={slide3}
         alt="Third slide"
       />
       </div>
@@ -94,7 +102,7 @@ function Home() {
       <span className="mt-1" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '60px' }}>Our Services</span>
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 reveal">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
-            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/386067086_740452044764911_1558155325825133413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=oNw45qzRhOMAX-KZ9t-&_nc_ht=scontent-atl3-1.xx&oh=00_AfBmBZ6hBuxKWWKz1PwqX8cGFdq9J7g5cYGdkrHTgLCqkQ&oe=656E2E74)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + walking + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Walking</Card.Title>
               <Card.Text>
@@ -113,7 +121,7 @@ function Home() {
         </div>
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 reveal">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
-            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/400711480_762166782593437_8219838962183967743_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=efSSVKOPyOYAX8iAAcq&_nc_ht=scontent-atl3-1.xx&oh=00_AfBUsr6Em--gF7qpppeQePdH9L55Qx25jbPxk-j7m1wEnw&oe=656D20E6)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + overnights + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Overnights</Card.Title>
               <Card.Text>
@@ -132,7 +140,7 @@ function Home() {
         </div>
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 reveal">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
-            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/401522650_765405172269598_2886420737545786491_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=53mQUdkNUHUAX8i1mqN&_nc_ht=scontent-atl3-1.xx&oh=00_AfBu9KUT1DiFwjxF9YwA_rkesGRyfoJ-ZLsjUX3CmR-pVw&oe=656E23C3)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + daycare + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Daycare</Card.Title>
               <Card.Text>
@@ -151,7 +159,7 @@ function Home() {
         </div>
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 reveal">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
-            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/384500595_740926471384135_1415448167507272910_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=VEv7mKvnOl4AX_VqTzO&_nc_ht=scontent-atl3-2.xx&oh=00_AfDIsr2vkTCdfQnYGG0IV8EXYBgfZHvrJuFfuG7eq7TI8g&oe=656CF28E)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + somethingelse + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Something Else</Card.Title>
               <Card.Text>
@@ -216,7 +224,7 @@ function Home() {
   }}>
     <div class="d-flex mb-3">
       <div class="text-center">
-        <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/401522650_765405172269598_2886420737545786491_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=53mQUdkNUHUAX8i1mqN&_nc_ht=scontent-atl3-1.xx&oh=00_AfBu9KUT1DiFwjxF9YwA_rkesGRyfoJ-ZLsjUX3CmR-pVw&oe=656E23C3"
+        <img src={owners}
           class="rounded-circle img-fluid" alt="" style={{width: "300px"}} />
         <div style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '40px' }}>The Owners</div>
       </div>
