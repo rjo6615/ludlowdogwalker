@@ -1,11 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a5d0d5db.css",
-    "main.js": "/static/js/main.3e3aaf05.js",
+    "main.js": "/static/js/main.c2c1feab.js",
     "static/js/787.290d7e8c.chunk.js": "/static/js/787.290d7e8c.chunk.js",
+    "static/media/walking.jpg": "/static/media/walking.12b45493967e4647f283.jpg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.bb5be820e5eb072d5758.ttf",
+    "static/media/daycare.jpg": "/static/media/daycare.09f193d082e46e8c4f5d.jpg",
+    "static/media/overnights.jpg": "/static/media/overnights.2956327accd8a62655e5.jpg",
+    "static/media/somethingelse.jpg": "/static/media/somethingelse.a5b05c2cf5339680e4ea.jpg",
+    "static/media/owners.jpg": "/static/media/owners.b1124d441589fa47dbdd.jpg",
+    "static/media/slide1.jpg": "/static/media/slide1.5e46261a8187cc541b79.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.4c05cd9bfc1270fb1cd0.ttf",
+    "static/media/slide2.jpg": "/static/media/slide2.23372b4e22deed805fd1.jpg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4cbe3db2046bbf3f98b1.woff2",
+    "static/media/slide3.jpg": "/static/media/slide3.8187ba5afb2d2af279a3.jpg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.498f4d22186034d218e9.woff2",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.96e19e1a389efc52c1ac.ttf",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.83824cd5b836d63b9eac.woff2",
@@ -13,11 +21,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.62590c81afe6966dda05.woff2",
     "index.html": "/index.html",
     "main.a5d0d5db.css.map": "/static/css/main.a5d0d5db.css.map",
-    "main.3e3aaf05.js.map": "/static/js/main.3e3aaf05.js.map",
+    "main.c2c1feab.js.map": "/static/js/main.c2c1feab.js.map",
     "787.290d7e8c.chunk.js.map": "/static/js/787.290d7e8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5d0d5db.css",
-    "static/js/main.3e3aaf05.js"
+    "static/js/main.c2c1feab.js"
   ]
 }
