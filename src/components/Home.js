@@ -3,6 +3,23 @@ import {Carousel, Card, Container, Row} from 'react-bootstrap';
 import slide1 from "../images/slide1.jpg";
 import slide2 from "../images/slide2.jpg";
 import slide3 from "../images/slide3.jpg";
+import slide4 from "../images/slide4.jpeg";
+import slide5 from "../images/slide5.jpeg";
+import slide6 from "../images/slide6.jpeg";
+import slide7 from "../images/slide7.jpeg";
+import slide8 from "../images/slide8.jpeg";
+import slide9 from "../images/slide9.jpeg";
+import slide10 from "../images/slide10.jpeg";
+import slide11 from "../images/slide11.jpeg";
+import slide12 from "../images/slide12.jpeg";
+import slide13 from "../images/slide13.jpeg";
+import slide14 from "../images/slide14.jpeg";
+import slide15 from "../images/slide15.jpeg";
+import slide16 from "../images/slide16.jpeg";
+import slide17 from "../images/slide17.jpeg";
+import slide18 from "../images/slide18.jpeg";
+import slide19 from "../images/slide19.jpeg";
+import slide20 from "../images/slide20.jpeg";
 import walking from "../images/walking.jpg";
 import overnights from "../images/overnights.jpg";
 import daycare from "../images/daycare.jpg";
@@ -68,30 +85,200 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
         className="d-block w-100 zoom-in"
         src={slide1}
-        alt="First slide"
+        alt="Slide 1"
       />
       </div>
     </Carousel.Item>
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
         className="d-block w-100 zoom-in"
         src={slide2}
-        alt="Second slide"
+        alt="Slide 2"
       />
       </div>
     </Carousel.Item>
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
         className="d-block w-100 zoom-in"
         src={slide3}
-        alt="Third slide"
+        alt="Slide 3"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide4}
+        alt="Slide 4"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide5}
+        alt="Slide 5"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide6}
+        alt="Slide 6"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide7}
+        alt="Slide 7"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide8}
+        alt="Slide 8"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide9}
+        alt="Slide 9"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide10}
+        alt="Slide 10"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide11}
+        alt="Slide 11"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide12}
+        alt="Slide 12"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide13}
+        alt="Slide 13"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide14}
+        alt="Slide 14"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide15}
+        alt="Slide 15"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide16}
+        alt="Slide 16"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide17}
+        alt="Slide 17"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide18}
+        alt="Slide 18"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide19}
+        alt="Slide 19"
+      />
+      </div>
+    </Carousel.Item>
+    <Carousel.Item style={{ position: 'relative' }}>
+    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
+      <img
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        className="d-block w-100 zoom-in"
+        src={slide20}
+        alt="Slide 20"
       />
       </div>
     </Carousel.Item>
