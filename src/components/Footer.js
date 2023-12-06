@@ -32,8 +32,11 @@ function Footer() {
       <a href="mailto:ludlowdogwalker@gmail.com" style={{ color: "inherit", textDecoration: "none" }}>
         <i className="fas fa-envelope mx-3 text-secondary"></i>ludlowdogwalker@gmail.com
       </a>
+      <a href="tel:2038589786" style={{ color: "inherit", textDecoration: "none" }}>
+        <i className="fas fa-phone mx-3 text-secondary"></i>Lynn: (203) 858-9786
+      </a>
       <a href="tel:8023532676" style={{ color: "inherit", textDecoration: "none" }}>
-        <i className="fas fa-phone mx-3 text-secondary"></i>(802) 353-2676
+        <i className="fas fa-phone mx-3 text-secondary"></i>Jim: (802) 353-2676
       </a>
     </p>
   </div>

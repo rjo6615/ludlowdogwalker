@@ -33,10 +33,12 @@ function Home() {
   <div className="contact-info-container fadeIn" style={{ flex: '1' }}>
     <div className="px-5 contact" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold'}}>
       "Years of love and care in Ludlow, Vermont! Join us 
-      for personalized dog walks, overnights, and daycare. Your pets deserve 
+      for joy filled walks, exercise hikes, daycare and cozy overnights. Your dogs deserve 
       the best, and we're here to deliver!"</div>
       <div className="mt-2 contact" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold'}}>Call us</div>
-      <a href="tel:8023532676"><button className="button-pop-out contact-button">(802)-353-2676</button></a>
+      <a href="tel:2038589786"><button className="button-pop-out contact-button">Lynn: (203)-858-9786</button></a>
+      <br />
+      <a href="tel:8023532676"><button className="button-pop-out contact-button">Jim: (802)-353-2676</button></a>
       <br />
       <div className="mt-1 contact" style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold'}}>Email us</div>
       <a href="mailto:ludlowdogwalker@gmail.com"><button className="button-pop-out contact-button">ludlowdogwalker@gmail.com</button></a>
@@ -104,18 +106,7 @@ function Home() {
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
             <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + walking + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
-              <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Walking</Card.Title>
-              <Card.Text>
-              <ul className='mb-5'>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
-              </ul>
-            </Card.Text>
+              <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "'Caveat', cursive" }} className='mb-4'>Walking</Card.Title>
             </Card.Body>
           </Card>
         </div>
@@ -123,18 +114,7 @@ function Home() {
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
             <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + overnights + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
-              <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Overnights</Card.Title>
-              <Card.Text>
-              <ul className='mb-5'>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
-              </ul>
-            </Card.Text>
+              <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "'Caveat', cursive" }} className='mb-4'>Overnights</Card.Title>
             </Card.Body>
           </Card>
         </div>
@@ -142,18 +122,7 @@ function Home() {
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
             <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + daycare + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
-              <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Daycare</Card.Title>
-              <Card.Text>
-              <ul className='mb-5'>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
-              </ul>
-            </Card.Text>
+              <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "'Caveat', cursive" }} className='mb-4'>Daycare</Card.Title>
             </Card.Body>
           </Card>
         </div>
@@ -161,18 +130,7 @@ function Home() {
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
             <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + somethingelse + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
-              <Card.Title style={{ color: 'black', fontSize: '20px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Something Else</Card.Title>
-              <Card.Text>
-              <ul className='mb-5'>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
-                <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
-              </ul>
-            </Card.Text>
+              <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "'Caveat', cursive" }} className='mb-4'>Exercise Hikes</Card.Title>
             </Card.Body>
           </Card>
         </div>
@@ -194,15 +152,15 @@ function Home() {
         <div class="card-body py-5 px-md-5">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-8">
-              <h2 class="fw-bold mb-5">About Us</h2>
+              <h2 class="fw-bold mb-5" style={{fontFamily: "'Caveat', cursive"}}>About Us</h2>
               <h6>"Welcome to Ludlow's Premier Dog Care by
-                 our dedicated husband-and-wife team! Celebrating 
-                 20+ years experience, we offer personalized dog walking, overnight
-                  stays, and daycare. Located in Ludlow, Vermont, we 
-                  provide loving and reliable care for your furry 
-                  friends. Join our family for joy-filled walks and 
-                  cozy overnights, ensuring your pets feel secure and 
-                  cherished. Your pets deserve the best, and we're here 
+                 our dedicated husband-and-wife team, Lynn and Jim! 
+                 We offer personalized dog walking, overnight
+                  stays, and daycare. Located in Ludlow Vermont 3.8 miles from downtown, we 
+                  provide loving and reliable care for your dogs. 
+                  Join our family for joy filled walks, exercise hikes, 
+                  daycare and cozy overnights, ensuring your dogs feel secure and 
+                  cherished. Your dogs deserves the best, and we're here 
                   to deliver!"
               </h6>
             </div>
@@ -226,7 +184,7 @@ function Home() {
       <div class="text-center">
         <img src={owners}
           class="rounded-circle img-fluid" alt="" style={{width: "300px"}} />
-        <div style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '40px' }}>The Owners</div>
+        <div style={{ fontFamily: "'Caveat', cursive", fontWeight: 'bold', fontSize: '40px' }}></div>
       </div>
     </div>
   </div>
