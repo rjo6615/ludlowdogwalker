@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c0651e5.css",
-    "main.js": "/static/js/main.dcd0d50c.js",
+    "main.css": "/static/css/main.32d45f9b.css",
+    "main.js": "/static/js/main.4c69a223.js",
     "static/js/787.290d7e8c.chunk.js": "/static/js/787.290d7e8c.chunk.js",
-    "static/media/walking.jpg": "/static/media/walking.12b45493967e4647f283.jpg",
+    "static/media/walking.jpeg": "/static/media/walking.86436af9c6f93130ed71.jpeg",
     "static/media/slide18.jpeg": "/static/media/slide18.8205cbe5711d27f2da23.jpeg",
     "static/media/slide17.jpeg": "/static/media/slide17.6720f7874fd07f0afa33.jpeg",
+    "static/media/overnights.jpeg": "/static/media/overnights.cab5e822c682280a1064.jpeg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.bb5be820e5eb072d5758.ttf",
     "static/media/slide11.jpeg": "/static/media/slide11.6e4651fe709b632994d7.jpeg",
     "static/media/slide14.jpeg": "/static/media/slide14.f097f8726f687deca64f.jpeg",
@@ -13,7 +14,6 @@
     "static/media/slide9.jpeg": "/static/media/slide9.7249055b584f1d6c20e7.jpeg",
     "static/media/slide6.jpeg": "/static/media/slide6.69510c932ff7efcf29de.jpeg",
     "static/media/slide13.jpeg": "/static/media/slide13.a7d63a0c0954155fee70.jpeg",
-    "static/media/overnights.jpg": "/static/media/overnights.2956327accd8a62655e5.jpg",
     "static/media/somethingelse.jpg": "/static/media/somethingelse.a5b05c2cf5339680e4ea.jpg",
     "static/media/owners.jpg": "/static/media/owners.b1124d441589fa47dbdd.jpg",
     "static/media/slide20.jpeg": "/static/media/slide20.9ae0f192ed2f7d75a2c4.jpeg",
@@ -37,12 +37,12 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.6b0efc2420efff557025.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.62590c81afe6966dda05.woff2",
     "index.html": "/index.html",
-    "main.5c0651e5.css.map": "/static/css/main.5c0651e5.css.map",
-    "main.dcd0d50c.js.map": "/static/js/main.dcd0d50c.js.map",
+    "main.32d45f9b.css.map": "/static/css/main.32d45f9b.css.map",
+    "main.4c69a223.js.map": "/static/js/main.4c69a223.js.map",
     "787.290d7e8c.chunk.js.map": "/static/js/787.290d7e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c0651e5.css",
-    "static/js/main.dcd0d50c.js"
+    "static/css/main.32d45f9b.css",
+    "static/js/main.4c69a223.js"
   ]
 }
