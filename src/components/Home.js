@@ -85,7 +85,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide1}
         alt="Slide 1"
@@ -95,7 +95,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide2}
         alt="Slide 2"
@@ -105,7 +105,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide3}
         alt="Slide 3"
@@ -115,7 +115,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide4}
         alt="Slide 4"
@@ -125,7 +125,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide5}
         alt="Slide 5"
@@ -135,7 +135,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide6}
         alt="Slide 6"
@@ -145,7 +145,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide7}
         alt="Slide 7"
@@ -155,7 +155,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide8}
         alt="Slide 8"
@@ -165,7 +165,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide9}
         alt="Slide 9"
@@ -175,7 +175,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide10}
         alt="Slide 10"
@@ -185,7 +185,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide11}
         alt="Slide 11"
@@ -195,7 +195,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide12}
         alt="Slide 12"
@@ -205,7 +205,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide13}
         alt="Slide 13"
@@ -215,7 +215,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide14}
         alt="Slide 14"
@@ -225,7 +225,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide15}
         alt="Slide 15"
@@ -235,7 +235,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide16}
         alt="Slide 16"
@@ -245,7 +245,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide17}
         alt="Slide 17"
@@ -255,7 +255,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide18}
         alt="Slide 18"
@@ -265,7 +265,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide19}
         alt="Slide 19"
@@ -275,7 +275,7 @@ function Home() {
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
       <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'fill' }}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
         src={slide20}
         alt="Slide 20"
@@ -331,7 +331,7 @@ function Home() {
         marginBottom: "-150px"}}></div>
   <div class="row"  id='aboutus'>
     <div class="col-md-6 reveal">
-      <div class="card mx-4 mx-md-5 shadow-5-strong mt-5" style={{
+      <div class="card mx-4 mx-md-5 shadow-5-strong mt-5 about" style={{
           background: "hsla(0, 0%, 100%, 0.8)",
           backdropFilter: "blur(30px)",
           maxWidth: '800px',
@@ -357,7 +357,7 @@ function Home() {
     </div>
 
     <div class="col-md-6 reveal">
-  <div class="card mx-4 mx-md-5 shadow-5-strong mt-5" style={{
+  <div class="card mx-4 mx-md-5 shadow-5-strong mt-5 about" style={{
       background: "hsla(0, 0%, 100%, 0.8)",
       backdropFilter: "blur(30px)",
       maxWidth: '800px',

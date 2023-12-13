@@ -184,6 +184,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   .contact {
     font-size: 30px;    
   }
+  .about {
+    height: 700px;
+  }
 }
 
 @media (min-width: 1070px) {
