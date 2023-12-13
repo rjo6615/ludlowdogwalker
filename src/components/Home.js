@@ -20,8 +20,8 @@ import slide17 from "../images/slide17.jpeg";
 import slide18 from "../images/slide18.jpeg";
 import slide19 from "../images/slide19.jpeg";
 import slide20 from "../images/slide20.jpeg";
-import walking from "../images/walking.jpg";
-import overnights from "../images/overnights.jpg";
+import walking from "../images/walking.jpeg";
+import overnights from "../images/overnights.jpeg";
 import daycare from "../images/daycare.jpg";
 import somethingelse from "../images/somethingelse.jpg";
 import owners from "../images/owners.jpg";
@@ -335,8 +335,8 @@ function Home() {
           background: "hsla(0, 0%, 100%, 0.8)",
           backdropFilter: "blur(30px)",
           maxWidth: '800px',
-          height: '420px'}}>
-        <div class="card-body py-5 px-md-5">
+          height: '460px'}}>
+        <div class="card-body py-5">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-8">
               <h2 class="fw-bold mb-5" style={{fontFamily: "'Caveat', cursive"}}>About Us</h2>
@@ -361,7 +361,7 @@ function Home() {
       background: "hsla(0, 0%, 100%, 0.8)",
       backdropFilter: "blur(30px)",
       maxWidth: '800px',
-      height: '420px',
+      height: '460px',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
