@@ -3,7 +3,7 @@ import {Carousel, Card, Container, Row} from 'react-bootstrap';
 import slide1 from "../images/slide1.jpg";
 import slide2 from "../images/slide2.jpg";
 import slide3 from "../images/slide3.jpg";
-import slide4 from "../images/slide4.jpeg";
+// import slide4 from "../images/slide4.jpeg";
 import slide5 from "../images/slide5.jpeg";
 import slide6 from "../images/slide6.jpeg";
 import slide7 from "../images/slide7.jpeg";
@@ -11,7 +11,7 @@ import slide8 from "../images/slide8.jpeg";
 import slide9 from "../images/slide9.jpeg";
 import slide10 from "../images/slide10.jpeg";
 import slide11 from "../images/slide11.jpeg";
-import slide12 from "../images/slide12.jpeg";
+// import slide12 from "../images/slide12.jpeg";
 import slide13 from "../images/slide13.jpeg";
 import slide14 from "../images/slide14.jpeg";
 import slide15 from "../images/slide15.jpeg";
@@ -117,16 +117,6 @@ function Home() {
       <img
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
-        src={slide4}
-        alt="Slide 4"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
         src={slide5}
         alt="Slide 5"
       />
@@ -189,16 +179,6 @@ function Home() {
         className="d-block w-100 zoom-in"
         src={slide11}
         alt="Slide 11"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide12}
-        alt="Slide 12"
       />
       </div>
     </Carousel.Item>
