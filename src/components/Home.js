@@ -1,29 +1,18 @@
 import React from "react";
 import {Carousel, Card, Container, Row} from 'react-bootstrap';
 import slide1 from "../images/slide1.jpg";
-import slide2 from "../images/slide2.jpg";
 import slide3 from "../images/slide3.jpg";
-// import slide4 from "../images/slide4.jpeg";
-import slide5 from "../images/slide5.jpeg";
-import slide6 from "../images/slide6.jpeg";
-import slide7 from "../images/slide7.jpeg";
-import slide8 from "../images/slide8.jpeg";
-import slide9 from "../images/slide9.jpeg";
 import slide10 from "../images/slide10.jpeg";
 import slide11 from "../images/slide11.jpeg";
-// import slide12 from "../images/slide12.jpeg";
-import slide13 from "../images/slide13.jpeg";
 import slide14 from "../images/slide14.jpeg";
 import slide15 from "../images/slide15.jpeg";
-import slide16 from "../images/slide16.jpeg";
 import slide17 from "../images/slide17.jpeg";
 import slide18 from "../images/slide18.jpeg";
-import slide19 from "../images/slide19.jpeg";
 import slide20 from "../images/slide20.jpeg";
 import walking from "../images/walking.jpeg";
 import overnights from "../images/overnights.jpeg";
 import daycare from "../images/daycare.jpg";
-import somethingelse from "../images/somethingelse.jpg";
+import hikes from "../images/hikes.jpeg";
 import owners from "../images/owners.jpg";
 
 function Home() {
@@ -97,68 +86,8 @@ function Home() {
       <img
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
-        src={slide2}
-        alt="Slide 2"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
         src={slide3}
         alt="Slide 3"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide5}
-        alt="Slide 5"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide6}
-        alt="Slide 6"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide7}
-        alt="Slide 7"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide8}
-        alt="Slide 8"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide9}
-        alt="Slide 9"
       />
       </div>
     </Carousel.Item>
@@ -180,17 +109,7 @@ function Home() {
         src={slide11}
         alt="Slide 11"
       />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide13}
-        alt="Slide 13"
-      />
-      </div>
+      </div> 
     </Carousel.Item>
     <Carousel.Item style={{ position: 'relative' }}>
     <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
@@ -217,16 +136,6 @@ function Home() {
       <img
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         className="d-block w-100 zoom-in"
-        src={slide16}
-        alt="Slide 16"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
         src={slide17}
         alt="Slide 17"
       />
@@ -239,16 +148,6 @@ function Home() {
         className="d-block w-100 zoom-in"
         src={slide18}
         alt="Slide 18"
-      />
-      </div>
-    </Carousel.Item>
-    <Carousel.Item style={{ position: 'relative' }}>
-    <div style={{ paddingBottom: '56.25%', overflow: 'hidden', borderRadius: '0%' }}>
-      <img
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-        className="d-block w-100 zoom-in"
-        src={slide19}
-        alt="Slide 19"
       />
       </div>
     </Carousel.Item>
@@ -295,7 +194,7 @@ function Home() {
         </div>
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 reveal">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
-            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + somethingelse + ')'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '15rem', height: '15rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(' + hikes + ')'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "'Caveat', cursive" }} className='mb-4'>Exercise Hikes</Card.Title>
             </Card.Body>
