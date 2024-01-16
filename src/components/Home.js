@@ -226,7 +226,7 @@ function Home() {
                   provide loving and reliable care for your dogs. 
                   Join our family for joy filled walks, exercise hikes, 
                   daycare and cozy overnights, ensuring your dogs feel secure and 
-                  cherished. Your dogs deserves the best, and we're here 
+                  cherished. Your dogs deserve the best, and we're here 
                   to deliver!"
               </h6>
             </div>
